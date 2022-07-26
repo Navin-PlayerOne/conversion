@@ -27,4 +27,5 @@ def print_hi():
     return jsonify(d)
 
 if __name__ == '__main__':
+    app.debug = True
     app.run()
